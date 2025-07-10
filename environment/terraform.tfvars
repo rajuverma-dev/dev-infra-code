@@ -1,0 +1,37 @@
+rg_name                  = "rjvrtodo"
+rg_location              = "centralindia"
+resource_group_name      = "rajveertodo"
+resource_group_location  = "East US"
+secret_sqlusername       = "sqluser"
+secret_sqlusernamevalue  = "veersql"
+secret_sqlpass           = "sqlpass"
+secret_sqlpassvalue      = "Arp_veer@123"
+keyvault_name            = "veerkeyvault01" # Name should be change once apply
+secret_vmuser            = "vmuser"
+secret_vmuservalue       = "rajveervm"
+secret_vmpass            = "vmapass"
+secret_vmpassvalue       = "rjvradmin@6774"
+virtual_network_name     = "rjvrvnet"
+vnet_dhondu_name         = "dhondu-vnet"
+vnet_tondu_name          = "tondu-vnet"
+vnet_address_space       = ["10.0.0.0/16"]
+subnet_faddress_prefixes = ["10.0.1.0/24"]
+subnet_baddress_prefixes = ["10.0.2.0/24"]
+sql_server_name          = "rjvrsql20"     # Name should be change once apply
+database_name            = "veerdatabase"
+fpip_name                = "frontend-pip"
+fsubnet_name             = "frontend-subnet"
+bpip_name                = "backend-pip"
+bsubnet_name             = "backend-subnet"
+vm_size                  = "Standard_B1s"
+vm_image_publisher       = "Canonical"
+vm_image_offer           = "0001-com-ubuntu-server-focal"
+vm_image_sku             = "20_04-lts"
+vm_image_version         = "latest"
+fnic_name                = "frontend-nic"
+bnic_name                = "backend-pip"
+fvm_name                 = "veerfrontendvm"
+bvm_name                 = "veerbackendvm"
+vm_user_name             = "veertodovm"
+
+ 
