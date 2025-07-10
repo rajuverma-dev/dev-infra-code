@@ -4,6 +4,7 @@ module "resource_group" {
   rg_location = var.rg_location
 }
 
+
 module "resource_groupA" {
   source      = "../modules/azurerm_resource_group"
   rg_name     = var.resource_group_name
