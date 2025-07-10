@@ -77,7 +77,7 @@ module "virtual_network_B" {
   vnet_address_space   = var.vnet_address_space
 }
 
-module "virtual_network_tondu" {
+module "virtual_network_dhondu" {
   depends_on           = [module.resource_group]
   source               = "../modules/azurerm_virtual_network"
   virtual_network_name = var.vnet_dhondu_name
